@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webform</title>
+
+    <!-- bs5 css links -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+    <!-- own css -->
+  </head>
+  <body style="background-color: #f7f7f7">
+    <form
+      action=""
+      method="post"
+      class="m-auto my-5 py-5 px-4 bg-white shadow"
+      style="width: 500px"
+    >
+      <h2 class="text-grey fs-4">APPLY TO BECOME A SOLUTION PROVIDER</h2>
+      <p class="text-dark">
+        Thank you for your interest in becoming a Pipedrive solution provider.
+        Please fill out the form below and we will contact you shortly.
+      </p>
+
+      <div class="mb-3">
+        <label for="fullname" class="form-label">Full name</label>
+        <input type="text" class="form-control" />
+      </div>
+
+      <div class="mb-3">
+        <label for="email" class="form-label">Email (company email)</label>
+        <input type="email" class="form-control" />
+      </div>
+
+      <div class="mb-3">
+        <label for="phone" class="form-label">Phone</label>
+        <input type="number" class="form-control" />
+      </div>
+
+      <div class="mb-3">
+        <label for="companyname" class="form-label">Company name</label>
+        <input type="text" class="form-control" />
+      </div>
+
+      <div class="mb-3">
+        <label for="companydescription">Company description</label>
+        <textarea name="" id="" class="form-control" rows="4"></textarea>
+      </div>
+
+      <div class="mb-3">
+        <label for="website">Website</label>
+        <input type="text" class="form-control" />
+      </div>
+
+      <div class="mb-3">
+        <label for="address">Address (inc, COUNTRY)</label>
+        <input type="text" class="form-control" />
+      </div>
+
+      <div class="mb-3">
+        <label for="companyservices" class="form-label">Company Services</label>
+        <select class="form-select" aria-label="Select from dropdown">
+          <option selected disabled>Select from dropdown</option>
+          <datalist id="datalistOptions">
+            <option value="consultation">Consultation</option>
+            <option value="implementation">Implementation</option>
+            <option value="migration">Migration</option>
+            <option value="consultation">Consultation</option>
+            <option value="implementation">Implementation</option>
+            <option value="migration">Migration</option>
+            <option value="consultation">Consultation</option>
+            <option value="implementation">Implementation</option>
+            <option value="migration">Migration</option>
+          </datalist>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <label for="fulltimeemployees"
+          >How many full time employees do you have?</label
+        >
+        <input type="text" class="form-control" />
+      </div>
+
+      <div class="mb-3">
+        <label for="annualrevenue">What is your annual revenue?</label>
+        <input type="text" class="form-control" />
+      </div>
+
+      <div class="mb-3">
+        <label for="annualmarketing"
+          >What is your annual marketing budget?</label
+        >
+        <input type="text" class="form-control" />
+      </div>
+
+      <div class="mb-3">
+        <label for="experiencelist"
+          >Please list any CRM, ERP or sales tools you have experience
+          with</label
+        >
+        <textarea name="" id="" rows="4" class="form-control"></textarea>
+      </div>
+
+      <div class="mb-3">
+        <label for="resellingyear" class="form-label"
+          >How many years have you been reselling software?</label
+        >
+        <input type="text" class="form-control" />
+      </div>
+
+      <div class="mb-3">
+        <label for="primaryindustry" class="form-label"
+          >What primary industry do you serve?</label
+        >
+        <input type="text" class="form-control" />
+      </div>
+
+      <div class="mb-3">
+        <label for="secondaryindustry" class="form-label"
+          >What secondary industry do you serve?</label
+        >
+        <input type="text" class="form-control" />
+      </div>
+
+      <div class="mb-3">
+        <label for="secondaryindustry" class="form-label"
+          >What size companies do you target?</label
+        >
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="companies1"
+          />
+          <label class="form-check-label" for="companies"> 1-9 </label>
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="companies2"
+          />
+          <label class="form-check-label" for="companies"> 10-49 </label>
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="companies3"
+          />
+          <label class="form-check-label" for="companies"> 50-250 </label>
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="companies4"
+          />
+          <label class="form-check-label" for="companies"> 250+ </label>
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label for="pipedrive" class="form-label"
+          >Do you currently use Pipedrive?</label
+        >
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="pipedrive1"
+          />
+          <label class="form-check-label" for="pipedrive"> Yes </label>
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="pipedrive0"
+          />
+          <label class="form-check-label" for="pipedrive"> No </label>
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label for="pipedrivepartner" class="form-label"
+          >Have you ever been a Pipedrive partner?</label
+        >
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="flexCheckDefault"
+          />
+          <label class="form-check-label" for="flexCheckDefault"> Yes </label>
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="flexCheckDefault"
+          />
+          <label class="form-check-label" for="flexCheckDefault"> No </label>
+        </div>
+
+        <div class="mb-3">
+          <label for="annualrevenue"
+            >What percentage of your business will be Pipedrive?</label
+          >
+          <input type="text" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+          <label for="annualmarketing"
+            >How many user seats/licenses do you expect to sell annually?</label
+          >
+          <input type="text" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+          <label for="experiencelist"
+            >Describeyour go to market strategy.</label
+          >
+          <textarea name="" id="" rows="4" class="form-control"></textarea>
+        </div>
+
+        <div class="mb-3">
+          <label for="experiencelist"
+            >Why would you be a good fit for Pipedrive?</label
+          >
+          <textarea name="" id="" rows="4" class="form-control"></textarea>
+        </div>
+      </div>
+    </form>
+
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
